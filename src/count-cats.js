@@ -1,5 +1,3 @@
-const CustomError = require("../extensions/custom-error");
-
 module.exports = function countCats(backyard) {
   if(!Array.isArray(backyard) || backyard.length < 1) return 0
 
